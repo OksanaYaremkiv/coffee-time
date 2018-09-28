@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Оформити замовлення</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <p class="header-logo">Coffee house</p>
+            <nav class="header-nav">
+                <a href="#">Головна сторінка</a>
+                <a href="#">Меню</a>
+                <a href="#">Продукти</a>
+                <a href="#">Контакти</a>
+            </nav>
+        </nav>
+        <div class="banner-coffee">
+            <div>
+                <h1>Coffee</h1>
+                <div class="button-container">
+                    <div class="button-start-shopping">
+                        <div class="eff-slide"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <h1>Оформити замовлення</h1>
+        <form method="post">
+            <fieldset>
+                <p>Оберіть спосіб оплати</p>
+                <label><input type="radio" name="quantity" value="One">Оплата готівкою</label>
+                <label><input type="radio" name="quantity" value="two">Безготівкова оплата</label>
+                <input class="simpleInput" name="name" type="text" value="" placeholder="Ваше ім`я*" required="">
+                <input class="simpleInput" name="tel" type="text" pattern="^(8|\+?\d{1,3})?[ -]?\(?(\d{3})\)?[ -]?(\d{3})[ -]?(\d{2})[ -]?(\d{2})$" value="" placeholder="Телефон*" required="">
+                <input type="email" placeholder="Ваш е-мейл:">
+                <select id="city" name="city" class="SelectBox SumoUnder" tabindex="-1">
+                                                        <option value="Львів" selected="">Львів</option>
+                                                        <option value="Зимна Вода">Зимна Вода</option>
+                                                        <option value="Зубра">Зубра</option>
+                                                        <option value="Лапаївка">Лапаївка</option>
+                                                        <option value="Пасіки-Зубрицькі">Пасіки-Зубрицькі</option>
+                                                        <option value="Рудно">Рудно</option>
+                                                        <option value="Рясне-Руське">Рясне-Руське</option>
+                                                        <option value="Сокільники">Сокільники</option>
+                                                        <option value="Солонка">Солонка</option>
+                                                        <option value="Холодновідка">Холодновідка</option>
+                </select>
+                <input id="streetAutocomplete" name="street" class="simpleInput ui-autocomplete-input" type="text" value="" placeholder="Вулиця*" required="" autocomplete="off">
+                <input id="houseNumber" name="house_num" class="simpleInput" maxlength="4" type="text" value="" placeholder="Номер будинку*" required="">
+                <button type="submit">Оформити замовлення</button>
+            </fieldset>
+    </section>
+    </form>
+    <footer>
+        <h3>Контакти</h3>
+        <p>Контакти</p>
+        <p>
+            <a href="index.html"><button>На головну</button> </a>
+        </p>
+    </footer>
+</body>
+</html>
