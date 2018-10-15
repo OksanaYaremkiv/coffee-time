@@ -3,8 +3,6 @@
 
 :root {
     font-family: 'Comfortaa', cursive;
-    --h1-foreground-color: white;
-    xmargin: 50px;
 }
 
 @media (min-width: 500px) {
@@ -25,12 +23,6 @@
     transition: box-shadow .25s linear;
     transition: box-shadow .25s linear, -webkit-box-shadow .25s linear;
     backface-visibility: hidden;
-    height: 170px;
-}
-
-nav::after {
-    xbackground-image: url('../img/drops_of_chocolate.png');
-
 }
 
 header .content {
@@ -39,14 +31,9 @@ header .content {
     height: 150px;
 }
 
-nav {
-    height: 170px;
-    xbackground-image: url('../img/drops_of_chocolate.png');
-}
-
 nav img {
-    width: 100px;
-    height: 150px;
+    width: 40px;
+    height: 60px;
     margin-left: 50px;
 }
 
@@ -123,201 +110,62 @@ section {
 .main_container_products,
 .main_container_form {
     margin-top: 150px;
+    font-size: 1rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+.products {
+    font-size: 1rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+.modal {
+    font-size: 1rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+.btn-primary {
+    background-color: #203060;
+    border-color: #203060;
 }
 
 .carousel {
-    xwidth: 600px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: auto;
 }
 
-.carousel-inner {
-    xheight: 600px;
+.products h1 {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 3rem;
+
 }
 
-.banner {
-    xbackground-image: url('../img/menu.png');
-    min-height: 50vh;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    xmin-height: 250vh;
-}
-
-
-section {
-    position: relative;
-    overflow: hidden;
-    display: block;
-}
-
-@media (min-width: 1000px) {
-    .banner {
-        min-height: 400px;
-    }
-}
-
-.banner h1 {
-    color: var(--h1-foreground-color);
-    font-family: 'Notable', sans-serif;
+.page-footer {
+    text-align: center;
+    height: 140px;
+    font-family: 'Comfortaa', cursive;
     font-size: 3rem;
 }
 
-
-
-/*@media (min-width: 500px) {
-    header > nav {
-        display: flex;
-    }
-}*/
-
-/*
-
-
-
-@media (min-width: 1200px){
-	.container_header {
-    width: 1630px;
-	}
-}*/
-
-/*
-@media (min-width: 992px){
-	.container_header {
-    width: 970px;
-	}
-}
-
-@media (min-width: 768px){
-	.container_header {
-    width: 750px;
-	}
-}
-*/
-
-/*@media (min-width: 500px) {
-    .header-nav {
-		align-items: center;
-		flex: 1;
-		margin-left: 10%;
-		margin-top: 10%;
-    }
-}*/
-
-/*
-.header-nav a {
-    color: black;
-    text-decoration: none;
-    padding: 0 1%;
-}
-
-
-.header-nav a:hover {
-    text-decoration: underline;
-}
-
-@media (max-width: 1500px)
-header nav li {
-    padding: 0 30px;
-}
-
-a {
-	cursor: pointer;
-    text-decoration: none;
-    outline: 0;
-	color:inherit;
-}
-
-header nav li a {
-	display: block;
-}
-.section_menu, .section_banner_coffee {
-	xmin-height: calc(100vh - 433px);
-	    margin-top: 500px;
-}
-
-.banner-coffee {
-    
-    min-height: 50vh;
+.footer-icon {
     background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 20px;
 }
 
-.menu_container{
-    background-image: url(../img/menu_new.png);
-    min-height: 50vh;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-	xheight: 2050px;
+.icon-instagram {
+    background-image: url(../img/icon-instagram.png);
 }
 
-@media (min-width:500px){
-	.menu_container {
-		min-height:400px;
-	}
-}
-.menu_container img {
-	min-height: 50vh;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.icon-facebook {
+    background-image: url(../img/icon-facebook.png);
 }
 
-.menu_container ul li{
-    
+.icon-google {
+    background-image: url(../img/icon-google.png);
 }
-
-.menu_container_ul{
-    
-}
-
-.product-coffee {
-    border: 1px solid black;
-    margin: 5px;
-    padding: 5px;
-}
-
-.product-coffee img {
-    display: block;
-    width: 100%;
-}
-
-.product-coffee .button-buy-now {
-    display: flex;
-    justify-content: space-around;
-}
-
-.product-coffee .button-buy-now button {
-    min-width: 60px;
-}
-
-@media (min-width: 400px) {
-    .product-list {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (min-width: 700px) {
-    .product-list {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (min-width: 900px) {
-    .product-list {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}*/

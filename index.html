@@ -2,83 +2,322 @@
 <html lang="uk">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Час на каву</title>
-  <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Час на каву</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-  <div class="container">
-    <header class="content header">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img src="img/icon.png" alt="Логотип">
-        <a class="navbar-brand" href="#">Час на каву!</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+<div class="container" id="home">
+    <header class="content">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<img src="img/icon.png" alt="Логотип">
+  <a class="navbar-brand" href="#">Час на каву!</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="index.html">Головна <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="products.html">Меню</a>
-            <a class="nav-item nav-link" href="form.html">Оплата</a>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <section class="section_banner_coffee">
-      <div id="carousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carousel" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel" data-slide-to="1"></li>
-          <li data-target="#carousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="img/carusel_coffee.png" alt="Американо">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="img/carussel_coffee.png" alt="Еспре́со">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="img/carussel_coffee.png" alt="Допіо">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link smooth active" href="#home">Головна <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link smooth" href="#menu">Меню</a>
+      <a class="nav-item nav-link smooth" href="#contacts">Контакти</a>
+    </div>
+  </div>
+</nav>
+</header>
+</div>
+<section class="container">
+ <div id="carousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel" data-slide-to="1"></li>
+    <li data-target="#carousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/carusel_coffee.png" alt="Карусель кави">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/carusel_coffee.png" alt="Карусель кави">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/carusel_coffee.png" alt="Карусель кави">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-      </div>
-      <div class="banner">
-        <!--<img src="img/menu.png" alt="">-->
-        <div class="bunner_menu">
-          <h2>Американо</h2>
-          <h2>Еспре́со</h2>
-          <h2>Допіо</h2>
-          <h2>Капучи́но</h2>
-          <h2>Мак'я́то</h2>
-          <h2>Лáте</h2>
-          <h2>Мокачино</h2>
-          <h2>Гарячий шоколад</h2>
-          <h2>Холодна кава</h2>
+</div>
+</div>
+<div class="container">
+	 <div class="products" id="menu">
+	 <h1>Меню</h1>
+          <div class="row">
+			<div class="card col-12 col-sm-6 col-md-3 col-lg-3 mb-3">
+					<img class="card-img-top" src="img/americano.png" alt="Американо">
+			<div class="card-body">
+				<h5 class="card-title">Американо</h5>
+				<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#americano">Ще ...</a>
+				<a href="form.html" class="btn btn-primary">Замовити</a>
+			</div>
+			</div>
+            <div class="card col-12 col-sm-6 col-md-3 col-lg-3 mb-3">
+					<img class="card-img-top" src="img/espresso.png" alt="Еспре́со">
+			<div class="card-body">
+				<h5 class="card-title">Еспре́со</h5>
+				<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#espresso">Ще ...</a>
+				<a href="form.html" class="btn btn-primary">Замовити</a>
+			</div>
+			</div>
+			<div class="card col-12 col-sm-6 col-md-3 col-lg-3 mb-3">
+					<img class="card-img-top" src="img/cappuccino.png" alt="Капучи́но">
+			<div class="card-body">
+				<h5 class="card-title">Капучи́но</h5>
+				<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#cappuccino">Ще ...</a>
+				<a href="form.html" class="btn btn-primary">Замовити</a>
+			</div>
+			</div>
+			<div class="card col-12 col-sm-6 col-md-3 col-lg-3 mb-3">
+					<img class="card-img-top" src="img/macchiato.png" alt="Мак'я́то">
+			<div class="card-body">
+				<h5 class="card-title">Мак'я́то</h5>
+				<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#macchiato">Ще ...</a>
+				<a href="form.html" class="btn btn-primary">Замовити</a>
+			</div>
+			</div>
+			<div class="card col-12 col-sm-6 col-md-3 col-lg-3 mb-3">
+					<img class="card-img-top" src="img/late.png" alt="Лáте">
+			<div class="card-body">
+				<h5 class="card-title">Лáте</h5>
+				<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#late">Ще ...</a>
+				<a href="form.html" class="btn btn-primary">Замовити</a>
+			</div>
+			</div>
+			<div class="card col-12 col-sm-6 col-md-3 col-lg-3 mb-3">
+					<img class="card-img-top" src="img/coffee_mocha.png" alt="Мокачино">
+			<div class="card-body">
+				<h5 class="card-title">Мокачино</h5>
+				<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#coffeeMocha">Ще ...</a>
+				<a href="form.html" class="btn btn-primary">Замовити</a>
+			</div>
+			</div>
+            <div class="card col-12 col-sm-6 col-md-3 col-lg-3 mb-3">
+					<img class="card-img-top" src="img/hot_chokolate.png" alt="Гарячий шоколад">
+			<div class="card-body">
+				<h5 class="card-title">Гарячий шоколад</h5>
+				<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#hotChokolate">Ще ...</a>
+				<a href="form.html" class="btn btn-primary">Замовити</a>
+			</div>
+			</div>
+			<div class="card col-12 col-sm-6 col-md-3 col-lg-3 mb-3">
+			<img class="card-img-top" src="img/iced_coffee.png" alt="Холодна кава">
+			<div class="card-body">
+				<h5 class="card-title">Холодна кава</h5>
+				<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#icedCoffee">Ще ...</a>
+				<a href="form.html" class="btn btn-primary">Замовити</a>
+			</div>
+			</div>
+            </div>
         </div>
-      </div>
-    </section>
-    <footer>
-      <h3>Контакти</h3>
-      <p>Контакти</p>
+	</div>
+	</div>
+	</section>
+
+	  <footer class="page-footer" id="contacts">
+	  <h1>Контакти</h1>
+        <a href="#" class="footer-icon icon-instagram"></a>
+        <a href="#" class="footer-icon icon-facebook"></a>
+        <a href="#" class="footer-icon icon-google"></a>
     </footer>
+
+	<div class="modal fade" id="americano" tabindex="-1" role="dialog" aria-labelledby="menuModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="menuModalLabel">Американо</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <p>Американо (кава по-американськи) отримала свою назву, оскільки була широко популярною в Північній Америці. Кава американо з'явилася завдяки тязі американців до здорового способу життя: вважається, що вона корисна, оскільки містить
+                        менше кофеїну. Насправді це твердження не зовсім правильне. Існує два види американо: власне американська кава, яка готується у фільтровій кавоварці (об'єм 220 мл, температура 85°) і європеїзований американо, або еспресо з додаванням
+                        окропу (об'єм 120 мл, температура 84-92°). У першому випадку вміст кофеїну в чашці американо буде значно вище, ніж в стандартній порції еспресо. У другому випадку воно буде таким же, проте концентрація кофеїну істотно знизиться.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
+        <button type="button" class="btn btn-primary">Замовити</button>
+      </div>
+    </div>
   </div>
-  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</div>
+
+<div class="modal fade" id="espresso" tabindex="-1" role="dialog" aria-labelledby="menuModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="menuModalLabel">Еспре́со</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Еспре́со — міцний кавовий напій, зварений за допомогою нагрітої насиченої водяної пари, пропущеної через обсмажені, дрібно перемелені зерна кавового дерева. Принцип приготування еспресо не складний за умови використання еспресо-машини.
+                        Гаряча вода з температурою 90° (з варіаціями 85—97°) під високим тиском, в ідеалі 9 бар, проходить через шар спресованої меленої кави протягом 25—30 секунд. За цей час пропускається 30 мл води. При цьому в чашку потрапляє насичений
+                        смаком і ароматом кавовий напій. Він густіший, ніж звичайна кава.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
+        <button type="button" class="btn btn-primary">Замовити</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="cappuccino" tabindex="-1" role="dialog" aria-labelledby="menuModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="menuModalLabel">Капучи́но</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Капучи́но — напій італійського походження на основі еспресо з додаванням збитого парою молока, з гармонійним балансом насиченого солодкого смаку молока та еспресо. Традиційно капучино подається в попередньо прогрітій порцеляновій чашці,
+                        яка зберігає тепло довше, ніж скляна або паперова. Класичний капучино готують за наступним рецептом: у спеціальній порцеляновій чашці готують еспресо, потім туди заливають удвічі більшу кількість гарячого (65–75°C), збитого капучинатором
+                        молока. Кава й молоко частково змішуются, частково ні. Пропорції приблизно такі: 2/3 — суміш еспресо та молока, 1/3 — молоко. Зазвичай капучино прикрашають візерунками молока по каві — це називається лате-арт.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
+        <button type="button" class="btn btn-primary">Замовити</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="macchiato" tabindex="-1" role="dialog" aria-labelledby="menuModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="menuModalLabel">Мак'я́то</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Мак'я́то— кавовий напій, що його виготовляють із порції еспресо та невеликої кількості молока. Також відомий як еспресо-мак'ято. Як і капучино, мак'ято є основою для лате-арту.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
+        <button type="button" class="btn btn-primary">Замовити</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="late" tabindex="-1" role="dialog" aria-labelledby="menuModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="menuModalLabel">Лáте</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Лáте — кавовий напій родом з Італії, що складається з молока (італ. latte) і кави еспресо. Існують варіанти напою, до складу якого замість кави входять чай, мате або маття. В Італії лате готується в домашніх умовах і подається на сніданок.
+                        Для приготування лате використовується моко й чашка підігрітого молока. За межами Італії лате зазвичай готується з порції еспресо, яка заливається гарячим спіненим молоком (t = 60–70° С). Співвідношення еспресо, молока та молочної
+                        піни в такого напою 1:2:1 відповідно.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
+        <button type="button" class="btn btn-primary">Замовити</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="coffeeMocha" tabindex="-1" role="dialog" aria-labelledby="menuModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="menuModalLabel">Мокачино</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <p>Мокачино — кавовий напій, створений у США, який є різновидом лате з додаванням шоколаду. Назва «мокачино» використовується в Європі. У Північній Америці цей напій відомий як «мокко». Як і класична кава лате, мокачино готується з еспресо
+                        та гарячого молока. Крім того, до складу мокачино входить шоколад (зазвичай у вигляді порошку какао, однак використовується і шоколадний сироп). При приготуванні мокачино може використовуватися чорний, молочний або білий шоколад.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
+        <button type="button" class="btn btn-primary">Замовити</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="hotChokolate" tabindex="-1" role="dialog" aria-labelledby="menuModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="menuModalLabel">Гарячий шоколад</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Гарячий шоколад — напій, до складу якого входять какао, молоко або вершки і цукор. Напій зазвичай безалкогольний. До XIX століття гарячий шоколад використовувався і в медичних цілях. Сьогодні існують два основні різновиди напою какао:
+                        Гарячий шоколад готують з розтопленого плиткового шоколаду виключно на молоці з додаванням ванілі, цукру, кориці і збивають його до стану піни. Цей різновид (зазвичай називають какао) варять на воді і молоці з порошку какао, або
+                        розчиняють порошок какао у холодному молоці.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
+        <button type="button" class="btn btn-primary">Замовити</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="icedCoffee" tabindex="-1" role="dialog" aria-labelledby="menuModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="menuModalLabel">Холодна кава</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Холодна кава або Айс-кава, крижана кава — спосіб подання кавових напоїв. Часто вживається як прохолодного напою. Існує кілька способів приготування холодної кави. У першому випадку готовий гарячий напій остуджується до потрібної температури,
+           у другому — кава готується шляхом витримування мелених зерен у воді (наприклад, з допомогою френч-преса), після чого фільтрується. Часто холодна кава готується аналогічно гарячого аналогу того чи іншого кавового напою. Так, існують
+           «холодне лате», «холодне мокко». Дані напої виготовляються шляхом змішування гарячого еспрессо з необхідною кількістю охолодженого молока.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
+        <button type="button" class="btn btn-primary">Замовити</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<script async src="js/smooth.js"></script>
 </body>
 
 </html>
